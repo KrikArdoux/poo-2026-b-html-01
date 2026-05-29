@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header{
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main{
+    width: 100%;
+}
+
+.sobre-mi{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.sobre-mi h2{
+    margin-bottom: 30px;
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tarjeta h3{
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.tarjeta p{
+    line-height: 1.5;
+}
+
+.contacto{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.contacto h2{
+    margin-bottom: 15px;
+}
+
+.contacto p{
+    margin: 8px 0;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
